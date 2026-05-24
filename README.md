@@ -16,7 +16,7 @@ This the output of the tcpdump packet sniffer reporting the problem of the serve
 
 Analyzing the ICMP response shows the problem lies with the DNS due to port 53 being unreachable, looking at the query "35084" indicates a flag of the UDP message and the "A?" indicating a flag of the DNS failing protocol. 
 
-Looking at the ICMP message I assume the failure must come from two sources. One being a misconfiguration in the server, or a Denial of Service (DoS) attack has successfully inflitrated with the server. With the completed brief analysis I gave my report to the security operations.
+Looking at the ICMP message I assume the failure must come from two sources. One being a misconfiguration in the server, or a Denial of Service (DoS) attack has successfully inflitrated with the server. Next steps will be seeing if the DNS server itself is down, or if the Firewall have blocked port 53 and why.
 
 ## Skills learned
 
