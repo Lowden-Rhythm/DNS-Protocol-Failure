@@ -2,7 +2,7 @@
 
 ## Objective
 
-Multiple reports have came in claiming the client's website is having trouble. Pulling up the website reads the message "Destination Port Unreachable". As the analyst on the case I have loaded the tcpdump tool as the packet sniffer to analyze the live traffic when I pulled up the client website to analyze the site at network layer.
+Multiple reports came in claiming the client's website is having trouble. Pulling up the website reads the message "Destination Port Unreachable". As the analyst on the case I have loaded the tcpdump tool as the packet sniffer to analyze the live traffic when I pulled up the client website to analyze the site at network layer.
 
 ## Tools Used
 
